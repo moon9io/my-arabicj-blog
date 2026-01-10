@@ -1,0 +1,21 @@
+# إعدادات اللغة العربية
+languageCode = "ar"
+languageName = "العربية"
+weight = 1
+timeZone = "Africa/Cairo"  # ضع المنطقة الزمنية المناسبة
+
+[params]
+  title = "مدونتي العربية"
+  description = "مدونة عربية متخصصة في التقنية والبرمجة"
+  homeSubtitle = "مرحبًا بكم في مدونتي المتواضعة حيث أشارككم شغفي بالتقنية"
+
+  [params.author]
+    name = "اسمك"
+    image = "avatar.jpg"
+    bio = "مطور وكاتب تقني مهتم بنشر المعرفة باللغة العربية"
+
+  [params.social]
+    GitHub = "https://github.com/username"
+    Twitter = "https://twitter.com/username"
+    YouTube = "https://youtube.com/@username"
+    LinkedIn = "https://linkedin.com/in/username"

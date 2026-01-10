@@ -1,0 +1,198 @@
+# -- Theme Options --
+# خيارات سمة Blowfish للمدونة العربية
+
+# المظهر والألوان
+colorScheme = "congo"  # يمكنك الاختيار من: blowfish, congo, dracula, atom, nord, aqua
+defaultAppearance = "dark"  # أو "light" أو "auto"
+autoSwitchAppearance = true  # التبديل التلقائي بين الوضع الفاتح والداكن
+
+# إمكانية الوصول
+enableA11y = false
+enableSearch = true  # تفعيل البحث
+enableCodeCopy = true  # نسخ الأكواد بنقرة واحدة
+enableStructuredBreadcrumbs = true  # تفعيل مسار التنقل
+# enableStyledScrollbar = true  # شريط تمرير مخصص
+
+# الروابط
+replyByEmail = false
+
+# الأقسام الرئيسية
+mainSections = ["posts", "videos"]  # الأقسام الرئيسية في الموقع
+robots = "index, follow"  # إرشادات لمحركات البحث
+
+# تحسين الصور
+disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = false
+# backgroundImageWidth = 1200
+
+# الصور الافتراضية
+# defaultBackgroundImage = "background.jpg"  # صورة خلفية افتراضية
+# defaultFeaturedImage = "featured.jpg"  # صورة مصغرة افتراضية للمقالات
+# defaultSocialImage = "/android-chrome-512x512.png"  # صورة افتراضية لمشاركات وسائل التواصل
+hotlinkFeatureImage = false  # منع ربط الصور من مواقع خارجية
+imagePosition = "50% 50%"  # موضع الصورة
+
+# تحسينات واجهة المستخدم
+highlightCurrentMenuArea = true  # تسليط الضوء على القسم الحالي في القائمة
+smartTOC = true  # جدول محتويات ذكي
+smartTOCHideUnfocusedChildren = true  # إخفاء العناصر غير المركزية في جدول المحتويات
+
+fingerprintAlgorithm = "sha512"  # خوارزمية بصمة الملفات
+
+# إعدادات الخوادم
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v11.next.forgejo.org"
+
+# ترويسة الصفحة
+[header]
+layout = "fixed"  # خيارات: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+
+# تذييل الصفحة
+[footer]
+showMenu = true  # إظهار قائمة في التذييل
+showCopyright = true  # إظهار حقوق النشر
+showThemeAttribution = true  # إظهار إسناد السمة
+showAppearanceSwitcher = true  # إظهار محول المظهر
+showScrollToTop = true  # إظهار زر التمرير للأعلى
+
+# الصفحة الرئيسية
+[homepage]
+layout = "profile"  # خيارات: page, profile, hero, card, background, custom
+# homepageImage = "profile.jpg"  # صورة الصفحة الرئيسية (للتخطيطات: hero, card)
+showRecent = true  # إظهار أحدث المقالات
+showRecentItems = 6  # عدد العناصر الحديثة المعروضة
+showMoreLink = true  # إظهار رابط "المزيد"
+showMoreLinkDest = "/posts/"  # وجهة رابط "المزيد"
+cardView = false  # عرض البطاقات
+cardViewScreenWidth = false  # عرض البطاقات بعرض الشاشة
+layoutBackgroundBlur = false  # تأثير الضبابية للخلفية
+disableHeroImageFilter = false  # تعطيل مرشح صورة البطل
+
+# إعدادات المقالات
+[article]
+showDate = true  # إظهار تاريخ النشر
+showViews = false  # إظهار عدد المشاهدات (يتطلب تكاملًا)
+showLikes = false  # إظهار عدد الإعجابات (يتطلب تكاملًا)
+showDateOnlyInArticle = false  # إظهار التاريخ فقط في المقال
+showDateUpdated = true  # إظهار تاريخ التحديث
+showAuthor = true  # إظهار المؤلف
+showAuthorBottom = true  # إظهار المؤلف في الأسفل أيضًا
+showHero = true  # إظهار صورة البطل للمقال
+heroStyle = "basic"  # خيارات: basic, big, background, thumbAndBackground
+layoutBackgroundBlur = true  # تأثير ضبابية الخلفية
+layoutBackgroundHeaderSpace = true  # مساحة رأس الخلفية
+showBreadcrumbs = true  # إظهار مسار التنقل
+showDraftLabel = true  # إظهار تسمية المسودة
+showEdit = true  # إظهار رابط التعديل
+# editURL = "https://github.com/username/repo/edit/main/content/"  # رابط التعديل
+editAppendPath = true  # إلحاق المسار برابط التعديل
+seriesOpened = false  # فتح السلسلة تلقائيًا
+showHeadingAnchors = true  # إظهار روابط العناوين
+showPagination = true  # إظهار ترقيم الصفحات
+invertPagination = false  # عكس ترتيب ترقيم الصفحات
+showReadingTime = true  # إظهار وقت القراءة
+showTableOfContents = true  # إظهار جدول المحتويات
+showRelatedContent = true  # إظهار المحتوى ذو الصلة
+relatedContentLimit = 3  # حد المحتوى ذو الصلة
+showTaxonomies = true  # إظهار التصنيفات
+showCategoryOnly = false  # إظهار الفئة فقط
+showAuthorsBadges = true  # إظهار شارات المؤلفين
+showWordCount = true  # إظهار عدد الكلمات
+sharingLinks = ["twitter", "facebook", "linkedin", "whatsapp", "telegram"]  # روابط المشاركة
+showZenMode = true  # إظهار وضع التأمل
+
+# إعدادات القوائم
+[list]
+showHero = false  # إظهار صورة البطل للقوائم
+heroStyle = "background"  # نمط صورة البطل
+layoutBackgroundBlur = true  # تأثير ضبابية الخلفية
+layoutBackgroundHeaderSpace = true  # مساحة رأس الخلفية
+showBreadcrumbs = true  # إظهار مسار التنقل
+showSummary = true  # إظهار الملخص
+showViews = false  # إظهار المشاهدات
+showLikes = false  # إظهار الإعجابات
+showTableOfContents = false  # إظهار جدول المحتويات
+showCards = false  # إظهار البطاقات
+orderByWeight = false  # الترتيب حسب الوزن
+groupByYear = true  # التجميع حسب السنة
+cardView = false  # عرض البطاقات
+cardViewScreenWidth = false  # عرض البطاقات بعرض الشاشة
+constrainItemsWidth = true  # تقييد عرض العناصر
+
+# خريطة الموقع
+[sitemap]
+excludedKinds = ["taxonomy", "term"]  # استبعاد أنواع المحتوى من خريطة الموقع
+
+# التصنيفات
+[taxonomy]
+showTermCount = true  # إظهار عدد المصطلحات
+showHero = false  # إظهار صورة البطل
+heroStyle = "background"  # نمط صورة البطل
+showBreadcrumbs = true  # إظهار مسار التنقل
+showViews = false  # إظهار المشاهدات
+showLikes = false  # إظهار الإعجابات
+showTableOfContents = false  # إظهار جدول المحتويات
+cardView = false  # عرض البطاقات
+
+# المصطلحات
+[term]
+showHero = false  # إظهار صورة البطل
+heroStyle = "background"  # نمط صورة البطل
+showBreadcrumbs = true  # إظهار مسار التنقل
+showViews = false  # إظهار المشاهدات
+showLikes = false  # إظهار الإعجابات
+showTableOfContents = true  # إظهار جدول المحتويات
+groupByYear = false  # التجميع حسب السنة
+cardView = false  # عرض البطاقات
+cardViewScreenWidth = false  # عرض البطاقات بعرض الشاشة
+
+# إعدادات التحليلات (أزل التعليق عن الخدمة التي تريد استخدامها)
+# [firebase]
+#   apiKey = "XXXXXX"
+#   authDomain = "XXXXXX"
+#   projectId = "XXXXXX"
+#   storageBucket = "XXXXXX"
+#   messagingSenderId = "XXXXXX"
+#   appId = "XXXXXX"
+#   measurementId = "XXXXXX"
+
+# [fathomAnalytics]
+#   site = "ABC12345"
+#   domain = "llama.yoursite.com"
+
+# [umamiAnalytics]
+#   websiteid = "ABC12345"
+#   domain = "llama.yoursite.com"
+#   dataDomains = "yoursite.com"
+#   scriptName = ""
+#   enableTrackEvent = true
+
+# [selineAnalytics]
+#   token = "XXXXXX"
+#   enableTrackEvent = true
+
+# الدعم والمشتريات
+# [buymeacoffee]
+#   identifier = ""
+#   globalWidget = true
+#   globalWidgetMessage = "Hello"
+#   globalWidgetColor = "#FFDD00"
+#   globalWidgetPosition = "right"
+
+# التحقق من الموقع
+[verification]
+#   google = ""
+#   bing = ""
+#   pinterest = ""
+#   yandex = ""
+#   fediverse = ""
+
+# آر إس إس التالي
+# [rssnext]
+#   feedId = ""
+#   userId = ""
+
+# الإعلانات
+# [advertisement]
+#   adsense = ""

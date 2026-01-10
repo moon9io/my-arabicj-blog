@@ -1,0 +1,56 @@
+# القائمة الرئيسية للمدونة العربية
+[[main]]
+  name = "🏠 الرئيسية"
+  pageRef = "/"
+  weight = 1
+
+[[main]]
+  name = "📝 المقالات"
+  pageRef = "/posts"
+  weight = 2
+
+[[main]]
+  name = "🎥 الفيديوهات"
+  pageRef = "/videos"
+  weight = 3
+
+[[main]]
+  name = "🏷️ الوسوم"
+  pageRef = "/tags"
+  weight = 4
+
+[[main]]
+  name = "📂 التصنيفات"
+  pageRef = "/categories"
+  weight = 5
+
+[[main]]
+  name = "ℹ️ عني"
+  pageRef = "/about"
+  weight = 6
+
+# قائمة التذييل
+[[footer]]
+  name = "🔍 البحث"
+  pageRef = "/search"
+  weight = 1
+
+[[footer]]
+  name = "📰 الأرشيف"
+  pageRef = "/archive"
+  weight = 2
+
+[[footer]]
+  name = "📧 اتصل بي"
+  pageRef = "/contact"
+  weight = 3
+
+[[footer]]
+  name = "🔐 الخصوصية"
+  pageRef = "/privacy"
+  weight = 4
+
+[[footer]]
+  name = "📄 الشروط"
+  pageRef = "/terms"
+  weight = 5
