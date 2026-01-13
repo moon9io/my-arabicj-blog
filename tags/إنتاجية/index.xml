@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>إنتاجية on Bex</title><link>https://Bex.github.io/my-arabicj-blog/tags/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC%D9%8A%D8%A9/</link><description>Recent content in إنتاجية on Bex</description><generator>Hugo -- gohugo.io</generator><language>ar</language><copyright>© 2026 Bex</copyright><lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Bex.github.io/my-arabicj-blog/tags/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC%D9%8A%D8%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>أفضل الأدوات للمطورين</title><link>https://Bex.github.io/my-arabicj-blog/posts/%D8%A3%D8%AF%D9%88%D8%A7%D8%AA-%D9%85%D8%B7%D9%88%D8%B1/</link><pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate><guid>https://Bex.github.io/my-arabicj-blog/posts/%D8%A3%D8%AF%D9%88%D8%A7%D8%AA-%D9%85%D8%B7%D9%88%D8%B1/</guid><description>&lt;h2 class="relative group"&gt;محررات الأكواد
+ &lt;div id="محررات-الأكواد" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d9%85%d8%ad%d8%b1%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%83%d9%88%d8%a7%d8%af" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;VS Code ⭐
+ &lt;div id="vs-code-" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#vs-code-" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;أفضل محرر للمطورين، مجاني ومفتوح المصدر.&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# تثبيت VS Code على فيدورا&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo dnf install code&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class="relative group"&gt;الامتدادات الضرورية
+ &lt;div id="الامتدادات-الضرورية" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d8%a7%d9%85%d8%aa%d8%af%d8%a7%d8%af%d8%a7%d8%aa-%d8%a7%d9%84%d8%b6%d8%b1%d9%88%d8%b1%d9%8a%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Prettier&lt;/strong&gt; - تنسيق الكود&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ESLint&lt;/strong&gt; - فحص الأخطاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitLens&lt;/strong&gt; - إدارة Git&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 class="relative group"&gt;أدوات Terminal
+ &lt;div id="أدوات-terminal" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a3%d8%af%d9%88%d8%a7%d8%aa-terminal" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Oh My Zsh&lt;/strong&gt; - لتحسين الـ Terminal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tmux&lt;/strong&gt; - لتقسيم الشاشة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;htop&lt;/strong&gt; - لمراقبة النظام&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class="relative group"&gt;الخلاصة
+ &lt;div id="الخلاصة" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d8%ae%d9%84%d8%a7%d8%b5%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;الأدوات الصحيحة تزيد إنتاجيتك 10 أضعاف! 🚀&lt;/p&gt;</description></item></channel></rss>

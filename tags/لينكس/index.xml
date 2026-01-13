@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>لينكس on Bex</title><link>https://Bex.github.io/my-arabicj-blog/tags/%D9%84%D9%8A%D9%86%D9%83%D8%B3/</link><description>Recent content in لينكس on Bex</description><generator>Hugo -- gohugo.io</generator><language>ar</language><copyright>© 2026 Bex</copyright><lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Bex.github.io/my-arabicj-blog/tags/%D9%84%D9%8A%D9%86%D9%83%D8%B3/index.xml" rel="self" type="application/rss+xml"/><item><title>أساسيات لينكس للمبتدئين 🐧</title><link>https://Bex.github.io/my-arabicj-blog/posts/linux-basics/</link><pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate><guid>https://Bex.github.io/my-arabicj-blog/posts/linux-basics/</guid><description>&lt;h2 class="relative group"&gt;مقدمة
+ &lt;div id="مقدمة" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d9%85%d9%82%d8%af%d9%85%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;لينكس نظام تشغيل &lt;strong&gt;مفتوح المصدر&lt;/strong&gt; قوي ومجاني!&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;معلومة:&lt;/strong&gt; معظم خوادم الإنترنت تعمل على لينكس!&lt;/p&gt;
+&lt;/blockquote&gt;&lt;hr&gt;
+
+&lt;h2 class="relative group"&gt;الأوامر الأساسية
+ &lt;div id="الأوامر-الأساسية" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d8%a3%d9%88%d8%a7%d9%85%d8%b1-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;عرض الملفات
+ &lt;div id="عرض-الملفات" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%b9%d8%b1%d8%b6-%d8%a7%d9%84%d9%85%d9%84%d9%81%d8%a7%d8%aa" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# عرض الملفات&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ls -la
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# الانتقال لمجلد&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /home/user
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# إنشاء مجلد&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;mkdir new_folder&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class="relative group"&gt;إدارة الحزم (Ubuntu)
+ &lt;div id="إدارة-الحزم-ubuntu" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a5%d8%af%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%ad%d8%b2%d9%85-ubuntu" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# تحديث النظام&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt update &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt upgrade
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# تثبيت برنامج&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt install firefox&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;h2 class="relative group"&gt;التوزيعات الشهيرة
+ &lt;div id="التوزيعات-الشهيرة" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d8%aa%d9%88%d8%b2%d9%8a%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%b4%d9%87%d9%8a%d8%b1%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;التوزيعة&lt;/th&gt;
+ &lt;th&gt;الصعوبة&lt;/th&gt;
+ &lt;th&gt;الاستخدام&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Ubuntu&lt;/td&gt;
+ &lt;td&gt;⭐⭐&lt;/td&gt;
+ &lt;td&gt;المبتدئين&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Fedora&lt;/td&gt;
+ &lt;td&gt;⭐⭐⭐&lt;/td&gt;
+ &lt;td&gt;المطورين&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Arch&lt;/td&gt;
+ &lt;td&gt;⭐⭐⭐⭐⭐&lt;/td&gt;
+ &lt;td&gt;المحترفين&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;نصيحة:&lt;/strong&gt; ابدأ بـ Ubuntu إذا كنت مبتدئاً! 💡&lt;/p&gt;</description></item><item><title>دليل لينكس للمبتدئين</title><link>https://Bex.github.io/my-arabicj-blog/posts/%D9%84%D9%8A%D9%86%D9%83%D8%B3-%D9%84%D9%84%D9%85%D8%A8%D8%AA%D8%AF%D8%A6%D9%8A%D9%86/</link><pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate><guid>https://Bex.github.io/my-arabicj-blog/posts/%D9%84%D9%8A%D9%86%D9%83%D8%B3-%D9%84%D9%84%D9%85%D8%A8%D8%AA%D8%AF%D8%A6%D9%8A%D9%86/</guid><description>&lt;h2 class="relative group"&gt;مقدمة
+ &lt;div id="مقدمة" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d9%85%d9%82%d8%af%d9%85%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;لينكس هو نظام تشغيل حر ومفتوح المصدر، قوي وآمن.&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;لماذا لينكس؟
+ &lt;div id="لماذا-لينكس" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d9%84%d9%8a%d9%86%d9%83%d8%b3" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;مجاني تماماً&lt;/strong&gt; 🆓&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;آمن جداً&lt;/strong&gt; 🔒&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;قابل للتخصيص&lt;/strong&gt; 🎨&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;مجتمع قوي&lt;/strong&gt; 👥&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 class="relative group"&gt;التوزيعات الشهيرة
+ &lt;div id="التوزيعات-الشهيرة" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d8%aa%d9%88%d8%b2%d9%8a%d8%b9%d8%a7%d8%aa-%d8%a7%d9%84%d8%b4%d9%87%d9%8a%d8%b1%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Ubuntu&lt;/strong&gt; - الأفضل للمبتدئين&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fedora&lt;/strong&gt; - التوازن بين الحداثة والاستقرار&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Arch Linux&lt;/strong&gt; - للمستخدمين المتقدمين&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class="relative group"&gt;الخلاصة
+ &lt;div id="الخلاصة" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d8%ae%d9%84%d8%a7%d8%b5%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;لينكس خيار ممتاز لكل من يريد نظاماً قوياً وآمناً! 🐧&lt;/p&gt;</description></item><item><title>ما تحتاج معرفته قبل الانتقال للينكس: الدليل الشامل لتجنب الكوارث</title><link>https://Bex.github.io/my-arabicj-blog/posts/linux-guide/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://Bex.github.io/my-arabicj-blog/posts/linux-guide/</guid><description>&lt;p&gt;في العصور الغابرة، كان مستبعداً رؤية شخص يفكر في استعمال نظام تشغيل غير ويندوز، ما لم يكن غنياً وله حاسوب ماك. لكن اليوم، شهدت الساحة تطوراً كبيراً فبُسّطت الإعدادات وطرق التثبيت فأصبح الانتقال أسهل بمراحل.&lt;/p&gt;
+&lt;p&gt;إليك أهم ما يجب الحذر منه لتجنب المشاكل التي قد تبدو بديهية للعارف، لكنها تتسبب في كوارث للمبتدئين.&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;h3 class="relative group"&gt;1. فخ &amp;ldquo;تجاهل التعلم&amp;rdquo; (عقدة الخبير)
+ &lt;div id="1-فخ-تجاهل-التعلم-عقدة-الخبير" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-%d9%81%d8%ae-%d8%aa%d8%ac%d8%a7%d9%87%d9%84-%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%85-%d8%b9%d9%82%d8%af%d8%a9-%d8%a7%d9%84%d8%ae%d8%a8%d9%8a%d8%b1" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;تجاهل التعلم هو السبب الأكبر للمشاكل؛ إذ توهمك تجاربك السابقة مع ويندوز أنك قادر على استعمال نظام مختلف جذرياً دون مرجع.&lt;/p&gt;</description></item></channel></rss>

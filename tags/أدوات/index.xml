@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>أدوات on Bex</title><link>https://Bex.github.io/my-arabicj-blog/tags/%D8%A3%D8%AF%D9%88%D8%A7%D8%AA/</link><description>Recent content in أدوات on Bex</description><generator>Hugo -- gohugo.io</generator><language>ar</language><copyright>© 2026 Bex</copyright><lastBuildDate>Wed, 08 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Bex.github.io/my-arabicj-blog/tags/%D8%A3%D8%AF%D9%88%D8%A7%D8%AA/index.xml" rel="self" type="application/rss+xml"/><item><title>أدوات المطورين الأساسية 🛠️</title><link>https://Bex.github.io/my-arabicj-blog/posts/developer-tools/</link><pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate><guid>https://Bex.github.io/my-arabicj-blog/posts/developer-tools/</guid><description>&lt;h2 class="relative group"&gt;المحررات الشهيرة
+ &lt;div id="المحررات-الشهيرة" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d9%85%d8%ad%d8%b1%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%b4%d9%87%d9%8a%d8%b1%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;VS Code 💙
+ &lt;div id="vs-code-" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#vs-code-" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;المحرر الأكثر شعبية في العالم!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;المميزات:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ مجاني ومفتوح المصدر&lt;/li&gt;
+&lt;li&gt;✅ آلاف الإضافات&lt;/li&gt;
+&lt;li&gt;✅ Terminal مدمج&lt;/li&gt;
+&lt;li&gt;✅ Git مدمج&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;h3 class="relative group"&gt;Vim ⚫
+ &lt;div id="vim-" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#vim-" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;للمحترفين الذين يحبون السرعة!&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-vim" data-lang="vim"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;&amp;#34; ملف .vimrc الأساسي&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nx"&gt;number&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nx"&gt;relativenumber&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nx"&gt;autoindent&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;syntax&lt;/span&gt; &lt;span class="nx"&gt;on&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;h2 class="relative group"&gt;أدوات Git الأساسية 🔀
+ &lt;div id="أدوات-git-الأساسية-" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a3%d8%af%d9%88%d8%a7%d8%aa-git-%d8%a7%d9%84%d8%a3%d8%b3%d8%a7%d8%b3%d9%8a%d8%a9-" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# إعداد Git&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git config --global user.name &lt;span class="s2"&gt;&amp;#34;اسمك&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git config --global user.email &lt;span class="s2"&gt;&amp;#34;email@example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# الأوامر الأساسية&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git commit -m &lt;span class="s2"&gt;&amp;#34;رسالة&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git push origin main&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;تحذير:&lt;/strong&gt; لا تنسَ عمل commit قبل push!&lt;/p&gt;</description></item><item><title>أفضل الأدوات للمطورين</title><link>https://Bex.github.io/my-arabicj-blog/posts/%D8%A3%D8%AF%D9%88%D8%A7%D8%AA-%D9%85%D8%B7%D9%88%D8%B1/</link><pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate><guid>https://Bex.github.io/my-arabicj-blog/posts/%D8%A3%D8%AF%D9%88%D8%A7%D8%AA-%D9%85%D8%B7%D9%88%D8%B1/</guid><description>&lt;h2 class="relative group"&gt;محررات الأكواد
+ &lt;div id="محررات-الأكواد" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d9%85%d8%ad%d8%b1%d8%b1%d8%a7%d8%aa-%d8%a7%d9%84%d8%a3%d9%83%d9%88%d8%a7%d8%af" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h3 class="relative group"&gt;VS Code ⭐
+ &lt;div id="vs-code-" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#vs-code-" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;p&gt;أفضل محرر للمطورين، مجاني ومفتوح المصدر.&lt;/p&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# تثبيت VS Code على فيدورا&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo dnf install code&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class="relative group"&gt;الامتدادات الضرورية
+ &lt;div id="الامتدادات-الضرورية" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d8%a7%d9%85%d8%aa%d8%af%d8%a7%d8%af%d8%a7%d8%aa-%d8%a7%d9%84%d8%b6%d8%b1%d9%88%d8%b1%d9%8a%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Prettier&lt;/strong&gt; - تنسيق الكود&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ESLint&lt;/strong&gt; - فحص الأخطاء&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitLens&lt;/strong&gt; - إدارة Git&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 class="relative group"&gt;أدوات Terminal
+ &lt;div id="أدوات-terminal" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a3%d8%af%d9%88%d8%a7%d8%aa-terminal" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Oh My Zsh&lt;/strong&gt; - لتحسين الـ Terminal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tmux&lt;/strong&gt; - لتقسيم الشاشة&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;htop&lt;/strong&gt; - لمراقبة النظام&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class="relative group"&gt;الخلاصة
+ &lt;div id="الخلاصة" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d8%ae%d9%84%d8%a7%d8%b5%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;الأدوات الصحيحة تزيد إنتاجيتك 10 أضعاف! 🚀&lt;/p&gt;</description></item><item><title>كيف تحمل كورسات اليوتيوب</title><link>https://Bex.github.io/my-arabicj-blog/posts/2023/%D9%83%D9%8A%D9%81-%D8%AA%D8%AD%D9%85%D9%84-%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><guid>https://Bex.github.io/my-arabicj-blog/posts/2023/%D9%83%D9%8A%D9%81-%D8%AA%D8%AD%D9%85%D9%84-%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8/</guid><description>&lt;h1 class="relative group"&gt;📥 كيف تحمل كورسات اليوتيوب
+ &lt;div id="-كيف-تحمل-كورسات-اليوتيوب" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%d9%83%d9%8a%d9%81-%d8%aa%d8%ad%d9%85%d9%84-%d9%83%d9%88%d8%b1%d8%b3%d8%a7%d8%aa-%d8%a7%d9%84%d9%8a%d9%88%d8%aa%d9%8a%d9%88%d8%a8" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;في هذا المقال سنتعلم كيفية تحميل الكورسات التعليمية من يوتيوب لمشاهدتها بدون اتصال بالإنترنت.&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;الأدوات المطلوبة
+ &lt;div id="الأدوات-المطلوبة" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d8%a3%d8%af%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b7%d9%84%d9%88%d8%a8%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;youtube-dl&lt;/strong&gt; - أداة سطر أوامر قوية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4K Video Downloader&lt;/strong&gt; - واجهة رسومية أسهل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Internet Download Manager&lt;/strong&gt; - للإدارة المتقدمة&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 class="relative group"&gt;الخطوات العملية
+ &lt;div id="الخطوات-العملية" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# مثال باستخدام youtube-dl&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;youtube-dl -f best &lt;span class="s2"&gt;&amp;#34;رابط_الكورس&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description></item><item><title>كيف تحمل كورسات اليوتيوب</title><link>https://Bex.github.io/my-arabicj-blog/posts/%D9%83%D9%8A%D9%81-%D8%AA%D8%AD%D9%85%D9%84-%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8/</link><pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate><guid>https://Bex.github.io/my-arabicj-blog/posts/%D9%83%D9%8A%D9%81-%D8%AA%D8%AD%D9%85%D9%84-%D9%83%D9%88%D8%B1%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8/</guid><description>&lt;h2 class="relative group"&gt;📥 كيف تحمل كورسات اليوتيوب
+ &lt;div id="-كيف-تحمل-كورسات-اليوتيوب" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-%d9%83%d9%8a%d9%81-%d8%aa%d8%ad%d9%85%d9%84-%d9%83%d9%88%d8%b1%d8%b3%d8%a7%d8%aa-%d8%a7%d9%84%d9%8a%d9%88%d8%aa%d9%8a%d9%88%d8%a8" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;في هذا المقال سنتعلم كيفية تحميل الكورسات التعليمية من يوتيوب لمشاهدتها بدون اتصال بالإنترنت.&lt;/p&gt;
+
+&lt;h3 class="relative group"&gt;الأدوات المطلوبة
+ &lt;div id="الأدوات-المطلوبة" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d8%a3%d8%af%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b7%d9%84%d9%88%d8%a8%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;youtube-dl&lt;/strong&gt; - أداة سطر أوامر قوية&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4K Video Downloader&lt;/strong&gt; - واجهة رسومية أسهل&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Internet Download Manager&lt;/strong&gt; - للإدارة المتقدمة&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 class="relative group"&gt;الخطوات العملية
+ &lt;div id="الخطوات-العملية" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a7%d8%aa-%d8%a7%d9%84%d8%b9%d9%85%d9%84%d9%8a%d8%a9" aria-label="رابط"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h3&gt;
+&lt;div class="highlight-wrapper"&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# مثال باستخدام youtube-dl&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;youtube-dl -f best &lt;span class="s2"&gt;&amp;#34;رابط_الكورس&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;نصائح مهمة
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; تأكد من حقوق النشر
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; استخدم الكورسات للتعلم الشخصي فقط
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; دعم المبدعين عندما تستطيع
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; ملاحظة: بعض الكورسات قد تكون محمية، احترم حقوق النشر دائماً.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;الخاتمة
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;التعلم دون اتصال ممتاز للسفر أو الأماكن ذات الإنترنت الضعيف.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</description></item></channel></rss>
