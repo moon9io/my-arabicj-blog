@@ -2,7 +2,7 @@
 # الإعدادات الأساسية لمدونة Bex (hugo.toml)
 # ==========================================
 
-baseURL = "http://localhost:1313/"
+baseURL = "https://moon9io.github.io/my-arabicj-blog/"
 title = "bex"
 theme = "blowfish"
 languageCode = "ar"
