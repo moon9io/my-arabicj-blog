@@ -2,189 +2,189 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bex</title>
-    <link>http://localhost:1313/reponame/tags/</link>
+    <link>http://localhost:1313/my-arabicj-blog/tags/</link>
     <description>Recent content in Tags on Bex</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ar</language>
     <copyright>© 2026 Bex</copyright>
-    <lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/reponame/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/my-arabicj-blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>First</title>
-      <link>http://localhost:1313/reponame/tags/first/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/first/</link>
       <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/first/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/first/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hello</title>
-      <link>http://localhost:1313/reponame/tags/hello/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/hello/</link>
       <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/hello/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/hello/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>تجربة</title>
-      <link>http://localhost:1313/reponame/tags/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>مرحبا</title>
-      <link>http://localhost:1313/reponame/tags/%D9%85%D8%B1%D8%AD%D8%A8%D8%A7/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D9%85%D8%B1%D8%AD%D8%A8%D8%A7/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D9%85%D8%B1%D8%AD%D8%A8%D8%A7/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D9%85%D8%B1%D8%AD%D8%A8%D8%A7/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>شروحات</title>
-      <link>http://localhost:1313/reponame/tags/%D8%B4%D8%B1%D9%88%D8%AD%D8%A7%D8%AA/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D8%B4%D8%B1%D9%88%D8%AD%D8%A7%D8%AA/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D8%B4%D8%B1%D9%88%D8%AD%D8%A7%D8%AA/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D8%B4%D8%B1%D9%88%D8%AD%D8%A7%D8%AA/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>لينكس</title>
-      <link>http://localhost:1313/reponame/tags/%D9%84%D9%8A%D9%86%D9%83%D8%B3/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D9%84%D9%8A%D9%86%D9%83%D8%B3/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D9%84%D9%8A%D9%86%D9%83%D8%B3/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D9%84%D9%8A%D9%86%D9%83%D8%B3/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>مبتدئين</title>
-      <link>http://localhost:1313/reponame/tags/%D9%85%D8%A8%D8%AA%D8%AF%D8%A6%D9%8A%D9%86/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D9%85%D8%A8%D8%AA%D8%AF%D8%A6%D9%8A%D9%86/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D9%85%D8%A8%D8%AA%D8%AF%D8%A6%D9%8A%D9%86/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D9%85%D8%A8%D8%AA%D8%AF%D8%A6%D9%8A%D9%86/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>أدوات</title>
-      <link>http://localhost:1313/reponame/tags/%D8%A3%D8%AF%D9%88%D8%A7%D8%AA/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D8%A3%D8%AF%D9%88%D8%A7%D8%AA/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D8%A3%D8%AF%D9%88%D8%A7%D8%AA/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D8%A3%D8%AF%D9%88%D8%A7%D8%AA/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>برمجة</title>
-      <link>http://localhost:1313/reponame/tags/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>تعلم</title>
-      <link>http://localhost:1313/reponame/tags/%D8%AA%D8%B9%D9%84%D9%85/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D8%AA%D8%B9%D9%84%D9%85/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D8%AA%D8%B9%D9%84%D9%85/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D8%AA%D8%B9%D9%84%D9%85/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>نصائح</title>
-      <link>http://localhost:1313/reponame/tags/%D9%86%D8%B5%D8%A7%D8%A6%D8%AD/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D9%86%D8%B5%D8%A7%D8%A6%D8%AD/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D9%86%D8%B5%D8%A7%D8%A6%D8%AD/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D9%86%D8%B5%D8%A7%D8%A6%D8%AD/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>إنتاجية</title>
-      <link>http://localhost:1313/reponame/tags/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC%D9%8A%D8%A9/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC%D9%8A%D8%A9/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC%D9%8A%D8%A9/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC%D9%8A%D8%A9/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>تطوير</title>
-      <link>http://localhost:1313/reponame/tags/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>تقنية</title>
-      <link>http://localhost:1313/reponame/tags/%D8%AA%D9%82%D9%86%D9%8A%D8%A9/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D8%AA%D9%82%D9%86%D9%8A%D8%A9/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D8%AA%D9%82%D9%86%D9%8A%D8%A9/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D8%AA%D9%82%D9%86%D9%8A%D8%A9/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/reponame/tags/hugo/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/hugo/</link>
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/hugo/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/hugo/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>بداية</title>
-      <link>http://localhost:1313/reponame/tags/%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9/</link>
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>مدونة</title>
-      <link>http://localhost:1313/reponame/tags/%D9%85%D8%AF%D9%88%D9%86%D8%A9/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D9%85%D8%AF%D9%88%D9%86%D8%A9/</link>
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D9%85%D8%AF%D9%88%D9%86%D8%A9/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D9%85%D8%AF%D9%88%D9%86%D8%A9/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>يوتيوب</title>
-      <link>http://localhost:1313/reponame/tags/%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8/</link>
+      <link>http://localhost:1313/my-arabicj-blog/tags/%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/reponame/tags/%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8/</guid>
+      <guid>http://localhost:1313/my-arabicj-blog/tags/%D9%8A%D9%88%D8%AA%D9%8A%D9%88%D8%A8/</guid>
       <description></description>
       
     </item>

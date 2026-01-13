@@ -1,8 +1,12 @@
+# .github/workflows/gh-pages.yml
+
 name: GitHub Pages
+
 on:
   push:
     branches:
-      - main  # تأكد أن اسم فرعك في قيتهايب هو main
+      - main
+
 jobs:
   build-deploy:
     runs-on: ubuntu-24.04
@@ -14,12 +18,15 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "latest"
+
       - name: Build
         run: hugo --minify
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
