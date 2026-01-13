@@ -1,7 +1,3 @@
-# ==========================================
-# الإعدادات الأساسية لمدونة Bex (hugo.toml)
-# ==========================================
-
 baseURL = "https://moon9io.github.io/my-arabicj-blog/"
 title = "bex"
 theme = "blowfish"
