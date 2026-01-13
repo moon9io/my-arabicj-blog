@@ -1,0 +1,34 @@
+baseURL = "https://username.github.io/reponame/"
+title = "Bex"
+theme = "blowfish"
+languageCode = "ar"
+defaultContentLanguage = "ar"
+enableEmoji = true
+
+# إعدادات اللغة العربية وتحويل الاتجاه (RTL)
+[languages.ar]
+  languageCode = "ar"
+  languageName = "العربية"
+  languageDirection = "rtl" # ضروري جداً لظهور الموقع بشكل صحيح من اليمين
+  weight = 1
+
+  [languages.ar.params]
+    description = "مهما كنت... كن جيداً ✨"
+    subtitle = "في عالم امتلأ ضجيجاً، أتخذ طالب - مهندس شبكات - خطوة بين الجبال الرقمية"
+
+    # لضبط مظهر "هالوس" (الصورة الثانية)
+    [languages.ar.params.homepage]
+      layout = "profile"     # يجعل صورتك واسمك في المنتصف أو الجانب
+      cardView = true        # تفعيل نظام البطاقات المتوهجة
+      showRecent = true      # إظهار المقالات الأخيرة
+      homepageImage = "Others_Frieren.png" # اسم صورة الخلفية الموجودة في مجلد static
+
+    # إعدادات الهيدر (Header) مثل الصورة
+    [languages.ar.params.header]
+      layout = "fixed-fill-blur" # هيدر شفاف مع تأثير ضبابي
+
+# إعدادات المظهر العام
+[params]
+  defaultAppearance = "dark" # الموقع داكن دائماً لإبراز التوهج
+  showReadingTime = true
+  showTableOfContents = true

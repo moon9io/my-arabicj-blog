@@ -1,0 +1,479 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+    <head><script src="/reponame/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=reponame/livereload" data-no-instant defer></script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+            كيف تبدأ تعلم البرمجة | Bex
+        </title>
+        <style>
+            :root {
+                --bg-dark: #0b0f1a;
+                --accent-purple: #a855f7;
+                --accent-blue: #3b82f6;
+                --text-main: #e2e8f0;
+                --text-dim: #94a3b8;
+                --card-bg: rgba(30, 41, 59, 0.45);
+                --nav-bg: rgba(11, 15, 26, 0.7);
+                --glow: 0 0 20px rgba(168, 85, 247, 0.3);
+                --gradient: linear-gradient(
+                    90deg,
+                    var(--accent-purple),
+                    var(--accent-blue)
+                );
+            }
+
+            body {
+                margin: 0;
+                line-height: 1.6;
+                color: var(--text-main);
+
+                 
+                background:
+                     
+                    linear-gradient(
+                        to bottom,
+                        rgba(11, 15, 26, 0.9) 0%,
+                        rgba(11, 15, 26, 0.7) 50%,
+                        rgba(11, 15, 26, 0.9) 100%
+                    ),
+                     
+                    url("Others_Frieren.png");
+
+                 
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                 
+                image-rendering: -webkit-optimize-contrast;
+                background-color: #0b0f1a;  
+            }
+
+             
+            body::after {
+                content: "";
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url("https://www.transparenttextures.com/patterns/stardust.png");  
+                opacity: 0.02;  
+                pointer-events: none;
+                z-index: -1;
+            }
+
+             
+            .navbar {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                height: 65px;
+                background: var(--nav-bg);
+                backdrop-filter: blur(12px);
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+                z-index: 2000;
+            }
+
+            .nav-links a {
+                color: var(--text-main);
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 0.95rem;
+                transition: 0.3s;
+                opacity: 0.8;
+            }
+
+            .nav-links a:hover {
+                opacity: 1;
+                color: var(--accent-purple);
+            }
+
+             
+            .container {
+                max-width: 1000px;
+                margin: 100px auto 40px;
+                padding: 0 20px;
+            }
+
+             
+            .header-profile {
+                text-align: center;
+                margin-bottom: 60px;
+            }
+
+            .avatar-glow {
+                width: 130px;
+                height: 130px;
+                border-radius: 50%;
+                border: 3px solid var(--accent-purple);
+                box-shadow: var(--glow);
+                margin-bottom: 20px;
+                transition: 0.5s;
+            }
+
+            .avatar-glow:hover {
+                transform: rotate(5deg) scale(1.05);
+            }
+
+            .hallos-title {
+                font-size: 2.5rem;
+                font-weight: 900;
+                margin: 0;
+                background: var(--gradient);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .social-icons {
+                margin-top: 15px;
+                font-size: 1.5rem;
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .social-icons a {
+                color: var(--text-dim);
+                text-decoration: none;
+                transition: 0.3s;
+            }
+            .social-icons a:hover {
+                color: var(--accent-purple);
+                transform: translateY(-3px);
+            }
+
+             
+            .post-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                gap: 25px;
+                margin-top: 40px;
+            }
+
+            .post-card {
+                background: var(--card-bg);
+                border-radius: 12px;
+                overflow: hidden;
+                border: 1px solid rgba(255, 255, 255, 0.05);
+                transition: all 0.3s ease;
+                backdrop-filter: blur(8px);
+                position: relative;
+            }
+
+            .post-card::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 4px;
+                height: 100%;
+                background: var(--gradient);
+                opacity: 0;
+                transition: 0.3s;
+            }
+
+            .post-card:hover {
+                transform: translateY(-8px);
+                border-color: rgba(168, 85, 247, 0.4);
+                box-shadow: var(--glow);
+            }
+
+            .post-card:hover::before {
+                opacity: 1;
+            }
+
+            .post-img {
+                width: 100%;
+                height: 180px;
+                object-fit: cover;
+            }
+            .post-info {
+                padding: 20px;
+            }
+            .post-info h2 {
+                font-size: 1.2rem;
+                margin: 10px 0;
+                line-height: 1.4;
+                color: white;
+            }
+
+            .btn-more {
+                display: inline-block;
+                margin: 40px auto;
+                padding: 10px 30px;
+                border: 1px solid var(--accent-purple);
+                border-radius: 5px;
+                color: white;
+                text-decoration: none;
+                transition: 0.3s;
+            }
+
+            .btn-more:hover {
+                background: var(--accent-purple);
+                box-shadow: var(--glow);
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="/">الرئيسية</a>
+                <a href="/posts">مقالات</a>
+                <a href="/tags">تصنيفات</a>
+            </div>
+            <div
+                style="
+                    font-weight: 900;
+                    font-size: 1.3rem;
+                    background: var(--gradient);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                "
+            >
+                Bex
+            </div>
+        </nav>
+
+        <div class="container">
+            
+
+            <main>
+<article class="single-post">
+    <header>
+        <h1 class="post-title-main">كيف تبدأ تعلم البرمجة</h1>
+
+        <div class="post-info-bar">
+            <span class="reading-badge">
+                ⏱️ 1 دقائق قراءة
+            </span>
+            <span class="date-display"
+                >📅 8 يناير 2025</span
+            >
+        </div>
+
+        
+        <div class="tags-container">
+            
+            <a href="/tags/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9" class="tag-link"> #برمجة </a>
+            
+            <a href="/tags/%D8%AA%D8%B9%D9%84%D9%85" class="tag-link"> #تعلم </a>
+            
+            <a href="/tags/%D9%86%D8%B5%D8%A7%D8%A6%D8%AD" class="tag-link"> #نصائح </a>
+            
+        </div>
+         
+    </header>
+
+    <div class="content">
+<h2 class="relative group">البداية
+    <div id="البداية" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d8%a8%d8%af%d8%a7%d9%8a%d8%a9" aria-label="رابط">#</a>
+    </span>
+    
+</h2>
+<p>تعلم البرمجة رحلة ممتعة تحتاج صبراً واستمرارية.</p>
+
+<h2 class="relative group">اختر لغة البرمجة
+    <div id="اختر-لغة-البرمجة" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d8%ae%d8%aa%d8%b1-%d9%84%d8%ba%d8%a9-%d8%a7%d9%84%d8%a8%d8%b1%d9%85%d8%ac%d8%a9" aria-label="رابط">#</a>
+    </span>
+    
+</h2>
+<p>للمبتدئين، أنصح بـ:</p>
+<ul>
+<li><strong>Python</strong> - سهلة وقوية</li>
+<li><strong>JavaScript</strong> - لتطوير الويب</li>
+<li><strong>Go</strong> - لغة حديثة وسريعة</li>
+</ul>
+
+<h2 class="relative group">موارد للتعلم
+    <div id="موارد-للتعلم" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d9%85%d9%88%d8%a7%d8%b1%d8%af-%d9%84%d9%84%d8%aa%d8%b9%d9%84%d9%85" aria-label="رابط">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li><a href="https://freecodecamp.org"  target="_blank">FreeCodeCamp</a></li>
+<li><a href="https://codecademy.com"  target="_blank">Codecademy</a></li>
+<li>قنوات يوتيوب عربية</li>
+</ul>
+
+<h2 class="relative group">نصيحة أخيرة
+    <div id="نصيحة-أخيرة" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d9%86%d8%b5%d9%8a%d8%ad%d8%a9-%d8%a3%d8%ae%d9%8a%d8%b1%d8%a9" aria-label="رابط">#</a>
+    </span>
+    
+</h2>
+<p><strong>اكتب الكود بيدك!</strong> لا تكتفِ بالمشاهدة فقط 💪</p>
+</div>
+
+    <footer>
+        <a href="/posts/" class="back-link"> <span>→</span> العودة للمقالات </a>
+        <span class="thanks-msg">شكراً للقراءة ✨</span>
+    </footer>
+</article>
+
+<style>
+    .single-post {
+        max-width: 850px;  
+        margin: 60px auto;
+        background: rgba(30, 41, 59, 0.4);
+        padding: 50px;
+        border-radius: 20px;
+        backdrop-filter: blur(15px);
+        border: 1px solid rgba(168, 85, 247, 0.1);
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    }
+
+    .post-title-main {
+        font-size: 3rem;
+        margin-bottom: 25px;
+        background: linear-gradient(90deg, #a855f7, #3b82f6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 1.3;
+        text-align: center;
+        font-weight: 900;
+    }
+
+    .post-info-bar {
+        color: #94a3b8;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-bottom: 30px;
+    }
+
+    .reading-badge {
+        background: rgba(139, 92, 246, 0.2);
+        color: #c084fc;
+        padding: 5px 15px;
+        border-radius: 50px;
+        border: 1px solid rgba(139, 92, 246, 0.3);
+        font-size: 0.9rem;
+    }
+
+    .tags-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        margin-bottom: 40px;
+    }
+
+    .tag-link {
+        background: rgba(15, 23, 42, 0.6);
+        color: #94a3b8;
+        padding: 6px 18px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 0.85rem;
+        transition: 0.3s;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .tag-link:hover {
+        background: #8b5cf6;
+        color: white;
+        transform: translateY(-2px);
+    }
+
+    .featured-image-wrapper {
+        margin: 40px 0;
+        border-radius: 15px;
+        overflow: hidden;
+        border: 1px solid rgba(139, 92, 246, 0.2);
+    }
+
+    .featured-image-wrapper img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: 0.5s;
+    }
+
+     
+    .content {
+        font-size: 1.2rem;
+        line-height: 2;
+        color: #e2e8f0;
+    }
+
+    .content h2 {
+        color: white;
+        margin-top: 50px;
+        border-right: 5px solid #8b5cf6;
+        padding-right: 15px;
+    }
+
+     
+    .content pre {
+        background: #0f172a !important;
+        padding: 25px;
+        border-radius: 12px;
+        border: 1px solid #1e293b;
+        direction: ltr;  
+    }
+
+    footer {
+        margin-top: 60px;
+        padding-top: 30px;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .back-link {
+        color: #a855f7;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+        .single-post {
+            padding: 25px;
+            margin: 20px;
+        }
+        .post-title-main {
+            font-size: 2rem;
+        }
+    }
+</style>
+</main>
+
+            <footer
+                style="
+                    text-align: center;
+                    margin-top: 80px;
+                    padding: 40px;
+                    border-top: 1px solid rgba(255, 255, 255, 0.05);
+                    color: var(--text-dim);
+                    font-size: 0.9rem;
+                "
+            >
+                <p>
+                    © 2026 Bex | مدعوم بـ Hugo
+                    & Bex
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

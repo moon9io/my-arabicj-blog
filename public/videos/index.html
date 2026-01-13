@@ -1,0 +1,302 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+    <head><script src="/reponame/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=reponame/livereload" data-no-instant defer></script>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+            🎥 الفيديوهات | Bex
+        </title>
+        <style>
+            :root {
+                --bg-dark: #0b0f1a;
+                --accent-purple: #a855f7;
+                --accent-blue: #3b82f6;
+                --text-main: #e2e8f0;
+                --text-dim: #94a3b8;
+                --card-bg: rgba(30, 41, 59, 0.45);
+                --nav-bg: rgba(11, 15, 26, 0.7);
+                --glow: 0 0 20px rgba(168, 85, 247, 0.3);
+                --gradient: linear-gradient(
+                    90deg,
+                    var(--accent-purple),
+                    var(--accent-blue)
+                );
+            }
+
+            body {
+                margin: 0;
+                line-height: 1.6;
+                color: var(--text-main);
+
+                 
+                background:
+                     
+                    linear-gradient(
+                        to bottom,
+                        rgba(11, 15, 26, 0.9) 0%,
+                        rgba(11, 15, 26, 0.7) 50%,
+                        rgba(11, 15, 26, 0.9) 100%
+                    ),
+                     
+                    url("Others_Frieren.png");
+
+                 
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                 
+                image-rendering: -webkit-optimize-contrast;
+                background-color: #0b0f1a;  
+            }
+
+             
+            body::after {
+                content: "";
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url("https://www.transparenttextures.com/patterns/stardust.png");  
+                opacity: 0.02;  
+                pointer-events: none;
+                z-index: -1;
+            }
+
+             
+            .navbar {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                height: 65px;
+                background: var(--nav-bg);
+                backdrop-filter: blur(12px);
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+                z-index: 2000;
+            }
+
+            .nav-links a {
+                color: var(--text-main);
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 0.95rem;
+                transition: 0.3s;
+                opacity: 0.8;
+            }
+
+            .nav-links a:hover {
+                opacity: 1;
+                color: var(--accent-purple);
+            }
+
+             
+            .container {
+                max-width: 1000px;
+                margin: 100px auto 40px;
+                padding: 0 20px;
+            }
+
+             
+            .header-profile {
+                text-align: center;
+                margin-bottom: 60px;
+            }
+
+            .avatar-glow {
+                width: 130px;
+                height: 130px;
+                border-radius: 50%;
+                border: 3px solid var(--accent-purple);
+                box-shadow: var(--glow);
+                margin-bottom: 20px;
+                transition: 0.5s;
+            }
+
+            .avatar-glow:hover {
+                transform: rotate(5deg) scale(1.05);
+            }
+
+            .hallos-title {
+                font-size: 2.5rem;
+                font-weight: 900;
+                margin: 0;
+                background: var(--gradient);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .social-icons {
+                margin-top: 15px;
+                font-size: 1.5rem;
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .social-icons a {
+                color: var(--text-dim);
+                text-decoration: none;
+                transition: 0.3s;
+            }
+            .social-icons a:hover {
+                color: var(--accent-purple);
+                transform: translateY(-3px);
+            }
+
+             
+            .post-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                gap: 25px;
+                margin-top: 40px;
+            }
+
+            .post-card {
+                background: var(--card-bg);
+                border-radius: 12px;
+                overflow: hidden;
+                border: 1px solid rgba(255, 255, 255, 0.05);
+                transition: all 0.3s ease;
+                backdrop-filter: blur(8px);
+                position: relative;
+            }
+
+            .post-card::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 4px;
+                height: 100%;
+                background: var(--gradient);
+                opacity: 0;
+                transition: 0.3s;
+            }
+
+            .post-card:hover {
+                transform: translateY(-8px);
+                border-color: rgba(168, 85, 247, 0.4);
+                box-shadow: var(--glow);
+            }
+
+            .post-card:hover::before {
+                opacity: 1;
+            }
+
+            .post-img {
+                width: 100%;
+                height: 180px;
+                object-fit: cover;
+            }
+            .post-info {
+                padding: 20px;
+            }
+            .post-info h2 {
+                font-size: 1.2rem;
+                margin: 10px 0;
+                line-height: 1.4;
+                color: white;
+            }
+
+            .btn-more {
+                display: inline-block;
+                margin: 40px auto;
+                padding: 10px 30px;
+                border: 1px solid var(--accent-purple);
+                border-radius: 5px;
+                color: white;
+                text-decoration: none;
+                transition: 0.3s;
+            }
+
+            .btn-more:hover {
+                background: var(--accent-purple);
+                box-shadow: var(--glow);
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="/">الرئيسية</a>
+                <a href="/posts">مقالات</a>
+                <a href="/tags">تصنيفات</a>
+            </div>
+            <div
+                style="
+                    font-weight: 900;
+                    font-size: 1.3rem;
+                    background: var(--gradient);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                "
+            >
+                Bex
+            </div>
+        </nav>
+
+        <div class="container">
+            
+
+            <main>
+  <article class="max-w-full">
+    <header>
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        🎥 الفيديوهات
+      </h1>
+    </header>
+    <section class="max-w-full mt-6 prose dark:prose-invert">
+      
+<h1 class="relative group">الفيديوهات التعليمية
+    <div id="الفيديوهات-التعليمية" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88%d9%87%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b9%d9%84%d9%8a%d9%85%d9%8a%d8%a9" aria-label="رابط">#</a>
+    </span>
+    
+</h1>
+<p>هنا سأشارك فيديوهات تعليمية عن:</p>
+<ul>
+<li>برمجة الويب</li>
+<li>أنظمة التشغيل</li>
+<li>أدوات المطورين</li>
+</ul>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p><em>مثال على فيديو مضمن</em></p>
+
+    </section>
+    <footer class="pt-8">
+      
+
+    </footer>
+  </article>
+</main>
+
+            <footer
+                style="
+                    text-align: center;
+                    margin-top: 80px;
+                    padding: 40px;
+                    border-top: 1px solid rgba(255, 255, 255, 0.05);
+                    color: var(--text-dim);
+                    font-size: 0.9rem;
+                "
+            >
+                <p>
+                    © 2026 Bex | مدعوم بـ Hugo
+                    & Bex
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

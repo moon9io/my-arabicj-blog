@@ -1,0 +1,29 @@
+/* تأثيرات إضافية */
+.post-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.post-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom, #8b5cf6, #3b82f6);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.post-item:hover::before {
+    opacity: 1;
+}
+
+/* تأثيرات النص */
+.post-title {
+    background: linear-gradient(90deg, #8b5cf6, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

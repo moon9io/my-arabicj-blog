@@ -1,0 +1,38 @@
+# ==========================================
+# إعدادات المظهر والخصائص (params.toml)
+# ==========================================
+
+# معلومات الموقع الأساسية
+description = "مهما كنت... كن جيداً ✨"
+homeSubtitle = "في عالم امتلأ ضجيجا، أتخذ طالب - مهندس شبكات - خطوة بين الجبال الرقمية"
+
+# المؤلف (Bex)
+[author]
+  name = "Bex"
+  bio = "طالب - مهندس شبكات - يكتب عن التقنية"
+  image = "Others_Frieren.png" # أزل التعليق عند توفر الصورة
+
+# إعدادات المظهر العام
+colorScheme = "bloody"          # المخطط اللوني الأحمر الداكن
+defaultAppearance = "dark"      # الوضع الداكن افتراضياً
+displayFullLangName = true
+
+# إعدادات الصفحة الرئيسية (Home)
+[homepage]
+  layout = "background"         # التخطيط الذي اخترته (صورة خلفية كاملة)
+  showRecent = true             # إظهار أحدث المقالات
+  cardView = true               # تفعيل نظام البطاقات (Cards) لشكل هالوس
+
+# إعدادات المقالات (Article)
+[article]
+  showAuthor = true             # إظهار كاتب المقال
+  showDate = true               # إظهار التاريخ
+  showReadingTime = true        # إظهار وقت القراءة
+  showWordCount = false         # إخفاء عدد الكلمات
+  showTableOfContents = false   # إخفاء جدول المحتويات (كما طلبت)
+  showTaxonomies = true         # إظهار الأوسام والتصنيفات
+
+# إعدادات القوائم (List)
+[list]
+  cardView = true               # عرض التصنيفات والأرشيف كبطاقات أيضاً
+  showSummary = true            # إظهار ملخص المقال

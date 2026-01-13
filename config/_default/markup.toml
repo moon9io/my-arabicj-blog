@@ -1,0 +1,39 @@
+# ==========================================
+# إعدادات معالجة النصوص (Markup Settings)
+# ==========================================
+
+[goldmark]
+  [goldmark.parser]
+    # منع وضع الصور المنفردة داخل وسوم الفقرات (لتحسين التصميم)
+    wrapStandAloneImageWithinParagraph = false
+
+    [goldmark.parser.attribute]
+      # تفعيل الخصائص المخصصة (مثل تحديد حجم الصورة أو لون النص)
+      block = true
+
+  [goldmark.renderer]
+    # ضروري جداً لتشغيل الـ HTML المخصص والاختصارات (Shortcodes)
+    unsafe = true
+
+  [goldmark.extensions]
+    # دعم الرموز الرياضية والمعادلات (مثل LaTeX)
+    [goldmark.extensions.passthrough]
+      enable = true
+      [goldmark.extensions.passthrough.delimiters]
+        block = [['\[', '\]'], ['$$', '$$']]
+        inline = [['\(', '\)']]
+
+# إعدادات تظليل الأكواد البرمجية (Syntax Highlighting)
+[highlight]
+  # تفعيل الكلاسات لتمكين الثيمات المخصصة (مثل Dracula)
+  noClasses = false
+  codeFences = true
+  guessSyntax = true
+  lineNos = true          # إظهار أرقام الأسطر (مفيد لمهندسي الشبكات)
+  style = "dracula"       # نمط الألوان الداكن المفضل للمبرمجين
+
+# إعدادات جدول المحتويات (Table of Contents)
+[tableOfContents]
+  startLevel = 2          # يبدأ من العناوين الفرعية H2
+  endLevel = 4            # ينتهي عند H4
+  ordered = false         # قائمة غير مرقمة لشكل أنظف

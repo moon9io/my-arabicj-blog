@@ -1,0 +1,69 @@
+# ==========================================
+# إعدادات مدونة Bex (PaperMod Edition)
+# ==========================================
+
+baseURL: "http://localhost:1313/"
+title: "Bex"
+theme: "PaperMod"
+languageCode: "ar"
+defaultContentLanguage: "ar"
+enableGitInfo: false
+
+# إعدادات المظهر والخصائص
+params:
+  description: "مهما كنت... كن جيداً ✨"
+  defaultTheme: "dark" # لجعل الموقع داكناً دائماً مثل هالوس
+  disableThemeToggle: true # إخفاء زر التبديل لثبات المظهر الداكن
+
+  # إعدادات الواجهة
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true # مفيد جداً لشروحات هندسة الشبكات
+
+  # تصميم الصفحة الرئيسية (Home Info)
+  homeInfoParams:
+    Title: "هالوس | Hallos"
+    Content: |
+      في عالم امتلأ ضجيجا، اتخذ طالب - مهندس شبكات - خطوة بين الجبال الرقمية البعيدة لينشئ عليها ساحة له يتمرن فيها على الكتابة و يشارك آراءه مع زواره.
+
+      مرحباً في مدونتي المتواضعة حيث أتحدث عن مختلف المواضيع التقنية.
+
+  # إعدادات المؤلف والروابط
+  disableAuthor: true
+  socialIcons: [] # يمكنك إضافة روابطك هنا لاحقاً
+
+# قائمة التنقل (بدون إيموجي لتجنب المشاكل التي واجهتها)
+menu:
+  main:
+    - identifier: posts
+      name: "المقالات"
+      url: /posts/
+      weight: 1
+    - identifier: tags
+      name: "الوسوم"
+      url: /tags/
+      weight: 2
+    - identifier: archives
+      name: "الأرشيف"
+      url: /archives/
+      weight: 3
+    - identifier: about
+      name: "عني"
+      url: /about/
+      weight: 4
+
+# تنسيق المخرجات
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# إعدادات إضافية لضمان عمل اللغة العربية بشكل صحيح
+languages:
+  ar:
+    languageName: "العربية"
+    weight: 1
+    contentDir: "content"

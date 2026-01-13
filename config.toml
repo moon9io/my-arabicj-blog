@@ -1,0 +1,43 @@
+# ==========================================
+# الإعدادات الأساسية لمدونة Bex (hugo.toml)
+# ==========================================
+
+baseURL = "http://localhost:1313/"
+title = "bex"
+theme = "blowfish"
+languageCode = "ar"
+defaultContentLanguage = "ar"
+enableGitInfo = false
+enableEmoji = true
+
+# ==========================================
+# إعدادات اللغة العربية (RTL)
+# ==========================================
+[languages.ar]
+  languageCode = "ar"
+  languageName = "العربية"
+  languageDirection = "rtl" # لضمان توجيه الموقع من اليمين لليسار
+  weight = 1
+
+  [languages.ar.params]
+    description = "مهما كنت... كن جيداً ✨"
+
+    # تعريف الهوية الشخصية
+    [languages.ar.params.author]
+      name = "Bex" # تم تعديل الاسم ليعبر عنك
+      bio = "طالب - مهندس شبكات يكتب عن التقنية"
+      image = "img/avatar.jpg" # اتركها هكذا وسيبحث Hugo عنها في static/img/
+
+    # إعدادات الصفحة الرئيسية
+    [languages.ar.params.homepage]
+      layout = "profile" # النمط الذي يعطيك مظهر هالوس (صورة واسم في المنتصف)
+      homepageImage = "Others_Frieren.png" # خلفية الموقع
+      showRecent = true
+      cardView = true # تفعيل نظام البطاقات (المربعات)
+
+# ==========================================
+# إعدادات المعالجة (تلقائية من Blowfish)
+# ==========================================
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true # للسماح بـ HTML المخصص

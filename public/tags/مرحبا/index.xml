@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>مرحبا on Bex</title>
+    <link>http://localhost:1313/reponame/tags/%D9%85%D8%B1%D8%AD%D8%A8%D8%A7/</link>
+    <description>Recent content in مرحبا on Bex</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    <copyright>© 2026 Bex</copyright>
+    <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/reponame/tags/%D9%85%D8%B1%D8%AD%D8%A8%D8%A7/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>مرحباً بك في مدونتي 🎉</title>
+      <link>http://localhost:1313/reponame/posts/welcome/</link>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/reponame/posts/welcome/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;مرحباً بالعالم! 👋&#xA;    &lt;div id=&#34;مرحبا-بالعالم-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%d9%85%d8%b1%d8%ad%d8%a8%d8%a7-%d8%a8%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85-&#34; aria-label=&#34;رابط&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;هذه أول مقالة في مدونتي الجديدة المبنية بـ &lt;strong&gt;Hugo&lt;/strong&gt; و &lt;strong&gt;Blowfish&lt;/strong&gt;!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;ما الذي ستجده هنا؟&#xA;    &lt;div id=&#34;ما-الذي-ستجده-هنا&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%d9%85%d8%a7-%d8%a7%d9%84%d8%b0%d9%8a-%d8%b3%d8%aa%d8%ac%d8%af%d9%87-%d9%87%d9%86%d8%a7&#34; aria-label=&#34;رابط&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;📚 &lt;strong&gt;شروحات تقنية&lt;/strong&gt; - دروس ومقالات تعليمية&lt;/li&gt;&#xA;&lt;li&gt;💻 &lt;strong&gt;برمجة&lt;/strong&gt; - لغات البرمجة والأدوات&lt;/li&gt;&#xA;&lt;li&gt;🐧 &lt;strong&gt;لينكس&lt;/strong&gt; - كل ما يخص أنظمة لينكس&lt;/li&gt;&#xA;&lt;li&gt;🎨 &lt;strong&gt;تصميم&lt;/strong&gt; - تطوير الويب والتصميم&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;لماذا أنشأت هذه المدونة؟&#xA;    &lt;div id=&#34;لماذا-أنشأت-هذه-المدونة&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#%d9%84%d9%85%d8%a7%d8%b0%d8%a7-%d8%a3%d9%86%d8%b4%d8%a3%d8%aa-%d9%87%d8%b0%d9%87-%d8%a7%d9%84%d9%85%d8%af%d9%88%d9%86%d8%a9&#34; aria-label=&#34;رابط&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;blockquote&gt;&lt;p&gt;لمشاركة المعرفة ومساعدة المبتدئين في عالم التقنية والبرمجة.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

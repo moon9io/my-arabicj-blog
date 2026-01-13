@@ -1,0 +1,40 @@
+# -- القائمة الرئيسية (Main Menu) --
+# تظهر في أعلى الصفحة وتتميز بالبساطة والوضوح
+
+[[main]]
+  name = "الرئيسية"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "المقالات"
+  pageRef = "posts"
+  weight = 20
+
+[[main]]
+  name = "الوسوم"
+  pageRef = "tags"
+  weight = 30
+
+[[main]]
+  name = "الأرشيف"
+  pageRef = "archives"
+  weight = 40
+
+[[main]]
+  name = "عني"
+  pageRef = "about"
+  weight = 50
+
+# -- قائمة التذييل (Footer Menu) --
+# تظهر في أسفل الصفحة قبل حقوق النشر
+
+[[footer]]
+  name = "الوسوم"
+  pageRef = "tags"
+  weight = 10
+
+[[footer]]
+  name = "التصنيفات"
+  pageRef = "categories"
+  weight = 20

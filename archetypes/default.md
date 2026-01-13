@@ -1,5 +1,16 @@
 +++
-date = '{{ .Date }}'
+title = "{{ replace .File.ContentBaseName "-" " " | title }}"
+date = {{ .Date }}
 draft = true
-title = '{{ replace .File.ContentBaseName "-" " " | title }}'
+description = ""
+summary = ""
+tags = []
+categories = []
+series = []
+# إعدادات الصورة البارزة (للمربعات المتوهجة)
+image = "" 
+imageCaption = ""
+# إعدادات المقال
+showTableOfContents = true
+showAuthor = true
 +++
